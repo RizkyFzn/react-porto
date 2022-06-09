@@ -1,0 +1,53 @@
+.porto {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+.porto .image {
+  position: relative;
+}
+
+.porto img {
+  background-color: orange;
+  padding: 0.5rem;
+  border-radius: 10px;
+  width: 25rem;
+  height: 12rem;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.image:hover img {
+  opacity: 0.2;
+}
+
+.image .middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background: linear-gradient(120deg, rgba(176, 112, 3, 1) 0%, rgba(254, 161, 0, 1) 100%);
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.text a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}

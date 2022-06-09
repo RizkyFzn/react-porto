@@ -1,0 +1,58 @@
+.abt {
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; */
+  background: #eff4fd;
+}
+
+.abt .about-text {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.abt .about-text .profile-picture img {
+  height: 15rem;
+}
+
+.abt .about-text .desc-wrapper {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+.abt .about-text .desc-wrapper .desc-text {
+  text-align: center;
+  width: 40vw;
+}
+
+.abt .about-text .desc-wrapper .desc-info {
+  text-align: center;
+  width: 40vw;
+}
+
+.abt .about-text .vertical-line {
+  border-left: 3px solid gray;
+}
+
+.abt .sert {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.abt .sert .img-sert {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.abt .sert .img-sert img {
+  height: 15rem;
+  width: 22rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(120deg, rgba(176, 112, 3, 1) 0%, rgba(254, 161, 0, 1) 100%);
+  padding: 0.5rem;
+}
